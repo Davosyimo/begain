@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: rgb(72, 122, 172);
+}
+
+header{
+    background-color: bisque;
+    padding: 0 50px;
+}
+
+ul li{
+    display: inline-block;
+    font-size:150%;
+    font-weight: 700;
+    width: 100px;
+    
+    
+}
+
+ul li a{
+    color: rgb(21, 112, 190);
+    display: block;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: #b12b2b;
+    color: rgb(247, 245, 245);
+}
+
+p{
+    font-size: 20px;
+}
+
+table {
+    margin: 0 auto;
+    padding: 20px 0;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}
+th {
+    color: #fff;
+    background-color: coral;
+    font-size: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+td {
+    color: #040c16;
+    background-color: #e9edf2;
+    font-size: 18px;
+    text-align: left;
+    padding: 20px;
+}
+
