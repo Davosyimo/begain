@@ -1,99 +1,100 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>CSS selectors</title>
-    <link href="styles.css" type="text/css" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <h1>Variant of CSS selectors</h1>
-    </header>
-    <main>
-      <table>
-        <thead>
-          <tr>
-            <th>Selector</th>
-            <th>Example</th>
-            <th>Example Description</th>
-          </tr>
-        </thead>
-        <tbody>
-           <tr>
-              <td class="itali">.class</td>
-              <td>.artic</td>
-             <td>Selects all elements with <span>class="artic"</span></td> 
-          </tr>
-          <tr>
-              <td class="itali">.class1.class2</td>
-              <td>.name1.name2</td>
-            <td>Selects all elements with both <span>name1</span> and <span>name2</span> set 
-    within its class attribute</td>
-          </tr>  
-          <tr>
-              <td class="itali">#id</td>
-              <td class="notranslate">#firstname</td>
-            <td>Selects the element with <span>id=&quot;firstname&quot;</span></td>
-          </tr> 
-          <tr>
-              <td class="itali">*</td>
-              <td>*</td>
-            <td><span>Selects all elements</span></td>
-          </tr>
-          <tr>
-              <td class="itali">element</td>
-              <td>p</td>
-            <td>Selects all <span>&lt;p&gt;</span> elements</td>
-          </tr>
-          <tr>
-              <td class="itali">element.class</td>
-              <td>p.intro</td>
-            <td>Selects all <span>&lt;p&gt;</span> elements with <span>class=&quot;intro&quot;</span></td>
-          </tr>
-          <tr>
-              <td class="itali">element,element</td>
-              <td>div, p</td>
-            <td>Selects all <span>&lt;div&gt;</span> elements and all <span>&lt;p&gt;</span> elements</td>
-          </tr>
-          <tr>
-              <td class="itali">element element</td>
-              <td>div p</td>
-            <td>Selects all <span>&lt;p&gt;</span> elements inside <span>&lt;div&gt;</span> elements</td>
-          </tr>
-          <tr>
-              <td class="itali">element&gt;element</td>
-              <td>div &gt; p</td>
-            <td>Selects all <span>&lt;p&gt;</span> elements where the parent is a <span>&lt;div&gt;</span> element</td>
-          </tr>
-          <tr>
-              <td class="itali">element+element</td>
-              <td>div + p</td>
-            <td>Selects all <span>&lt;p&gt;</span> elements that are placed immediately after <span>&lt;div&gt;</span> elements</td>
-          </tr>
-          <tr>
-              <td class="itali">element1~element2</td>
-              <td>p ~ ul</td>
-            <td>Selects every <span>&lt;ul&gt;</span> element that are preceded by a <span>&lt;p&gt;</span> element</td>
-          </tr>
-          <tr>
-              <td class="itali">[attribute]</td>
-              <td>[target]</td>
-            <td>Selects <span>all</span> elements with a <span>target attribute</span></td>
-          </tr>
-          <tr>
-              <td class="itali">[attribute=value]</td>
-              <td>[target=_blank]</td>
-            <td>Selects all elements with <span>target=&quot;_blank&quot;</span></td>
-          </tr>
-          <tr>
-              <td class="itali">[attribute~=value]</td>
-              <td>[title~=flower]</td>
-              <td>Selects all elements with a title attribute containing the word <span>&quot;flower&quot;</span></td>
-          </tr>
-        </tbody>
-      </table>
-    </main>
-    <footer>
-      <p class="foot">It was some examples of selectors</p>
-      <p class="continue">To be continue...</p>
-    </footer>
-  </body>
+    <head>
+        <title>my first html</title>
+        <link rel="stylesheet" href="index.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <!--nav bar-->
+            <ul>
+                <li><a href=#table1>table1</a></li>
+                <li><a href=#table2>table2</a></li>
+            </ul>
+        </header>
+        <h1 id="title">my first page</h1>
+        
+        <!--table1 -->
+        <section class="table">
+            
+            <h2>table1</h2>
+            <p>It's my first web page,in this page,I list some html tags in a table.</p>
+            <span></span>
+            <table>
+                <tr>
+                    <th>tag</th>
+                    <th>name</th>
+                    <th>description</th>
+                </tr>
+
+                <tr>
+                    <td>&lt;html&gt;</td>
+                    <td>html</td>
+                    <td>Defines the root of an HTML document</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;Body&gt;</td>
+                    <td>Body</td>
+                    <td>Defines the document's body</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;head&gt;</td>
+                    <td>head</td>
+                    <td>A container for all the head elements</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;hr&gt;</td>
+                    <td>Horizontal Rule	</td>
+                    <td>Defines a thematic change in the content</td>
+                </tr>
+
+                
+            </table>
+        </section>
+        <!--table2-->
+        <section class ="table">
+            <h2>table2</h2>
+            <p>It's my first web page,in this page,I list some html tags in a table.</p>
+            <span></span>
+            <table>
+                <tr>
+                    <th>tag</th>
+                    <th>name</th>
+                    <th>description</th>
+                </tr>
+
+                <tr>
+                    <td>&lt;html&gt;</td>
+                    <td>html</td>
+                    <td>Defines the root of an HTML document</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;Body&gt;</td>
+                    <td>Body</td>
+                    <td>Defines the document's body</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;head&gt;</td>
+                    <td>head</td>
+                    <td>A container for all the head elements</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;hr&gt;</td>
+                    <td>Horizontal Rule	</td>
+                    <td>Defines a thematic change in the content</td>
+                </tr>
+
+                
+            </table>
+        </section>
+        <footer>
+            <p>to be continue...</p>
+        </footer>
+    </body>
 </html>
